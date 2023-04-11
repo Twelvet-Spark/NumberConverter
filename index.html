@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Number Converter</title>
+</head>
+<body>
+    <main>
+        <section class="converter">
+            <div class="wrapper wrapper-converter">
+                <div class="window">
+                    <h1>Number Converter</h1>
+                    <input type="text" class="input-float" name="input-float">
+                    <label for="input-float">Your value</label>
+                    <select name="input-type" id="input-type">
+                        <option value="float">float</option>
+                        <option value="double">double</option>
+                        <option value="extended">extended</option>
+                    </select>
+                    <h1>Number in BIN: </h1>
+                    <h1>Number in HEX: </h1>
+                    <h1>Number in OCT: </h1>
+                    <button type="button" class="calculate-btn" onclick="convertToBase()">Calculate</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/calculate.js"></script>
+</body>
+</html>

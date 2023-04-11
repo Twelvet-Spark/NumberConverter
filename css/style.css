@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 80%;
+
+    margin: 0 auto;
+}
+
+/* Converter section */
+
+.wrapper-converter {
+    padding: 10vh;
+}
+
+.window {
+    width: 50vw;
+
+    margin: 0 auto;
+}
+
+.number-base {
+    width: 7%;
+}
+
+.input-float {
+    margin-top: 50px;
+}
